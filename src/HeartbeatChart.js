@@ -46,7 +46,7 @@ const HeartbeatChart = ({ data }) => {
 
   return (
     <div>
-      <Line data={heartbeatData} options={options} />
+      <Line data={heartbeatData}/>
     </div>
   );
 };
