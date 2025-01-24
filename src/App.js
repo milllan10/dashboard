@@ -98,7 +98,7 @@ const App = () => {
         <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-1  justify-between gap-3'>
           {/* <div className='flex gap-2'> */}
           <div className="bg-white shadow-lg rounded-lg p-6">
-            <h2 className="text-lg font-semibold text-gray-700 mb-4">Cluster Driver Distribution</h2>
+            <h2 className="text-lg font-semibold text-gray-700 mb-4">Cluster Start Time</h2>
             <StartTimeChart data={sampleData} />
           </div>
           <div className="bg-white shadow-lg rounded-lg p-6">
